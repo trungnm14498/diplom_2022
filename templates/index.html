@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Text Summarization</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="static/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="static/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon-16x16.png">
+  <link rel="manifest" href="static/img/site.webmanifest">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Gp - v4.7.0
+  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <!-- <h1 class="logo me-auto me-lg-0"><a href="index.html">Text<span>-</span>Summarization</a></h1> -->
+      <a href="#" class="logo me-auto me-lg-0"><img src="static/img/android-chrome-512x512.png" style="border:solid white 1px;" alt="" class="img-fluid"></a>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">Introduction</a></li>
+          <li><a class="nav-link scrollto" href="#features">More</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#tool" class="get-started-btn scrollto">Get Started</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1>Automatic Text Summarization Tool<span>.</span></h1>
+          <h2>Save your time, get more informations</h2>
+        </div>
+      </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+    
+    <!-- ======= Tools Section ======= -->
+    <section id="tool" class="tool">
+      <div class="container" data-aos="fade-up">
+        <form >
+          <div id="main_content">
+              <div class="text_input">
+                  <div class="layer_ot"><p>Original Text</p></div>
+                      <textarea style="width: 96%; height: 95%; left:9px; bottom: 3px; background-color: transparent; border-style: none;"
+                      class="form-control" id="text_input2" name="text_input2" placeholder="Enter your input text here ..."></textarea>                
+                  </div>
+              <div class="text_sum">
+                  <div class="layer_ts"><p>Summarized Text</p></div>
+                  <div> <p class="result" id="text_sum">{{ sum_text }}</p> </div>
+              </div>
+          </div>      
+          <div id='container_bt'><button class="bt" type="button">Summarize</button></div>
+          </form>  
+      </div>
+    </section><!-- End Tools Section -->
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="static/img/about1.jpg" class="img-fluid" alt="">
+          </div>
+          
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <p style="text-align: justify;font-size:23px;">
+              Today, in the 4.0 era, the amount of information a person receives in a day is increasing day by day. However, each person's time is only 24 hours, so it is extremely important to grasp the content of the text or information that we are about to receive. For that reason, the need for text summaries has also increased. Text summaries condense a text to its main points, saving us time and helping us to see if the text's outline is necessary and relevant to us.
+            </p>
+            <br>
+            <h2>What is Text Summarization?</h2>
+            <p class="fst-italic" style="font-size: 20px;">
+              Text summarization is the process of turning larger documents into shorter and precise paragraphs or sentences. 
+              The process brings out information that is crucial, and also ensures that the meaning of the paragraph stays the same. 
+              This helps reduce the time to understand large papers like research articles, without skipping any vital information.
+            </p>
+            <br>
+            <h5 style="font-weight:bold; font-size: 22px;">According to the Oxford dictionary, the Text Summary is:</h5>
+            <div class="quote">
+              <blockquote><p style="font-size: 32px; font-family: cursive; margin-top:20px">a short statement that gives only the main points of something, not the details.</p></blockquote>
+              <div class="line"></div>
+          </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features" style="text-align:justify">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="image col-lg-6" style='background-image: url("static/img/features.jpg");' data-aos="fade-right"></div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-book"></i>
+              <h4>Students</h4>
+              <p>A text summarizer helps students to condense difficult concepts by summarizing them. 
+                They get the know-how of complex articles and books. Moreover, manual summarizing can be 
+                very time-consuming. They use a text summarizer to solve their assignments in lesser time.</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-news"></i>
+              <h4>Journalists</h4>
+              <p>Journalists can get help from our text summarizer as they have to communicate an incident
+                 or an event. Giving thorough news is not valuable as compared to quick headliners. So, 
+                 they can use this summarizing tool to inform people about daily happenings.</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-pen"></i>
+              <h4>Writers</h4>
+              <p>Writers often have to face the difficulty of creating unique content either blogs or 
+                guest posts. They can only produce exceptional content if they know the gist of the whole 
+                story.</p>
+              <p>
+                While getting ideas from different sources, they can use our text summarizer to skim out 
+                the necessary information. This information is incorporated into what they are writing.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="logo"><h3>Text<span>-</span>Summarization<span>.</span></h3></div>
+          <div class="footer-info" style="height: 60px;">
+            <div class="address">
+              <p>Vyazemsky 5/7</p>
+              <p>Saint Petersburg 197022, Russia</p><br>
+            </div>
+            <div>
+              <strong>Phone:</strong> +7(996)-797-88-68 <br>
+              <strong>Email:</strong> trungnm.14498@gmail.com<br>
+            </div>  
+          </div>
+      </div>
+      <div class="footer-btm">
+        <div class="social-links mt-3">
+          <a href="https://www.facebook.com/trungnm14498/" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/trungnm14498/" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="https://vk.com/trungnm14498/" class="vk"><i class="bx bxl-vk"></i></a>
+        </div>
+        <div><p>Nguyen Manh Trung K34202</p></div>
+      </div>        
+              
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="static/vendor/purecounter/purecounter.js"></script>
+  <script src="static/vendor/aos/aos.js"></script>
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/js/main.js"></script>
+
+</body>
+
+</html>

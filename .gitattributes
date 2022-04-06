@@ -1,0 +1,2 @@
+*.pt filter=lfs diff=lfs merge=lfs -text
+diplom_model1.pt filter=lfs diff=lfs merge=lfs -text
