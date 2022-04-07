@@ -51,7 +51,7 @@ tensorflow-estimator==2.8.0
 tensorflow-io-gcs-filesystem==0.24.0
 termcolor==1.1.0
 tokenizers==0.10.3
-torch==1.10.1
+torch==1.11.0
 torchmetrics==0.7.2
 tqdm==4.63.1
 transformers==4.12.3
